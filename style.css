@@ -1,0 +1,194 @@
+body {
+    margin: 0 auto,
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Montserrat, sans-serif;
+    letter-spacing: 2px;
+    line-height: 1.2;
+    margin-top: 3px;
+    
+}
+
+h2 {
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+    background-color: #FA382F;
+    padding: 15px;
+    text-align: center;
+    color: white;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    
+   
+    letter-spacing: 2px;
+}
+
+
+
+p {
+    font-family: Montserrat, sans-serif;
+    font-weight: regular;
+    font-size: 16px;
+}
+
+h3 {
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    color:white;
+    letter-spacing: 1px;
+    margin-left: 40px;
+    margin-bottom: 0px;
+    padding-top: 50px;
+}
+
+h4 {
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+
+.hero-image {
+    display: flex;
+    flex-direction: column;
+    background-image: url("./assets/confettiblue.jpg");
+    height: 520px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  img.profile-picture {
+      border-radius: 50%;
+      border: 3px solid white;
+      width: 140px;
+      position: absolute;
+      top: 90%;
+      left: 70%;
+      transform: translate(-50%, -50%);
+      }
+      
+  .container-tech {
+      padding-top: 40px;
+  }
+
+  p.introduction-text, .tech p {
+      line-height: 1.8;
+      font-family: Montserrat, sans-serif;
+      font-weight: regular;
+      background-color: #F4F4F4;
+      opacity: 1;
+      padding: 40px;
+      letter-spacing: 1px;
+      font-size: 18px;
+      margin-top: 0px;
+      
+  }
+
+  .tech p {
+      padding-top: 0;
+  }
+
+  .frontend-developer {
+      margin-bottom: 0px;
+      margin-left: 40px;
+  }
+ 
+  h4.anthropologist {
+      letter-spacing: 1px;
+      color: white;
+      margin-top: 4px;
+      margin-left: 40px;
+  }
+  .tech p {
+      text-align: center;
+      background-color: white;
+  }
+
+  img.github, img.linkedin, img.stackoverflow {
+      float: right;
+      width: 30px;
+      height: 30px;
+      margin-right: 30px;
+      margin-top: 100px;
+  }
+
+.container-featured-projects {
+    background: #F4F4F4;
+    padding-top: 40px;
+}
+
+.sub-heading-featured-projects {
+    font-family: Montserrat, sans-serif;
+    font-size: 26px;
+    color: #FA382F;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.container-for-img {
+    display: flex;
+    
+    padding-top: 50px;
+
+}
+
+
+.container-for-text {
+    display: inline-flex;
+    justify-content: space-evenly;
+ 
+}
+
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 60px;
+    background-color: #0097AF;
+    /*background-color: #02728B;*/
+    color: white;
+    
+    
+    
+}
+
+p.heading {
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+
+p.contact-info {
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    margin-top: 8px;
+    margin-bottom: 1.5px;
+    letter-spacing: 1px;
+    font-weight: lighter;
+   
+    
+}
+
+p.contact-info:last-child {
+    margin-bottom: 40px;
+}
+  
