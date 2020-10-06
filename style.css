@@ -7,6 +7,7 @@ body {
     box-sizing: border-box;
 }
 
+@media (max-width: 599px) {
 h1 {
     font-family: Montserrat, sans-serif;
     font-weight: bold;
@@ -17,7 +18,9 @@ h1 {
     font-family: Montserrat, sans-serif;
     letter-spacing: 2px;
     line-height: 1.2;
-    margin-top: 3px;   
+    margin-top: 3px;  
+    margin-left: 40px; 
+    margin-bottom: 2px;
 }
 
 h2 {
@@ -64,6 +67,7 @@ h4 {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+  
   }
 
   img.profile-picture {
@@ -74,6 +78,7 @@ h4 {
       top: 87%;
       left: 70%;
       transform: translate(-50%, -50%);
+      z-index: 10;
       }
       
   .container-tech, .container-featured-projects, .container-my-thoughts, .container-skills {
@@ -91,6 +96,7 @@ h4 {
       letter-spacing: 1px;
       font-size: 18px;
       margin-top: 0px;   
+      opacity: .9;
   }
 
   .frontend-developer {
@@ -103,6 +109,322 @@ h4 {
       color: white;
       margin-top: 4px;
       margin-left: 40px;
+  }
+
+  img.github, img.linkedin, img.stackoverflow {
+      float: right;
+      width: 30px;
+      height: 30px;
+      margin-right: 30px;
+      margin-top: 100px;
+  }
+
+.container-projects {
+    background: #F4F4F4;
+    padding-top: 25px;
+    margin-bottom: 25px;
+}
+
+.tech p {
+    text-align: center;
+    background-color: white;
+    opacity: .9;
+}
+
+.sub-heading-featured-projects {
+    font-family: Montserrat, sans-serif;
+    font-size: 23px;
+    color: #FA382F;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.container-image-project {
+    display: flex;
+}
+
+.container-image-project img {
+   width: 80%;
+   padding-top: 40px;
+   margin: auto;  
+}
+
+.container-image-project p {
+    
+    flex-direction: column;
+    font-family: Roboto, sans-serif;
+    opacity: .9;
+}
+
+.container-text-project {
+    font-family: Roboto, sans-serif;
+    line-height: 1.6;
+    letter-spacing: 1px;
+    margin-left: 40px;
+    margin-right: 20px;
+    text-align: left;
+    opacity: .9;
+}
+
+.container-for-text {
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+
+.container-languages {
+    display: flex;
+}
+
+.container-languages p {
+    background-color:#FDDFE7;
+    font-family: Roboto, sans-serif;
+    margin: 3px;
+    margin-bottom: 20px;
+    padding: 3px;
+    font-size: 12px;
+    opacity: 0.8;   
+}
+
+.container-languages p:first-child {
+    margin-left: 38px;
+}
+
+.container-other-projects {
+    padding-bottom: 60px;
+}
+
+.tech img {
+    width: 80%;
+    margin-right: 20px;
+    margin-left: 20px;  
+}
+
+p.heading-my-thoughts {
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 0;
+    margin-top: 5px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-bottom: 5px;
+    line-height: 1.4;  
+    opacity: .9;
+}
+
+.thougths img {
+    width: 80%;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+}
+
+p.date {
+    padding-bottom: 10px;
+    text-align: left;
+    margin-left: 35px;
+    margin-bottom: 5px;
+    margin-top: 40px;   
+}
+
+p.text {
+    font-size: 16px;
+    text-align: left;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 5px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    opacity: .9;
+}
+
+.container-skills {
+    background: #F4F4F4;
+    margin-top: 75px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    margin-bottom: 25px;
+}
+
+.container-skills-list {
+    display: flex;  
+    flex-wrap: wrap;
+    margin-top: 40px;
+    justify-content: space-evenly;
+}
+
+.card {
+    width: 40%;
+    
+}
+
+.card p  {
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+.container-for-more {
+    padding-top: 70px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.for-more {
+    margin-top: 60px;
+}
+
+.container-for-img img {
+    width: 20px;
+}
+
+.container-for-social-media-text p {
+    font-size: 12px;
+    font-weight: 700;
+    color: #FA382F;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 60px;
+    background-color: #0097AF;
+    /*background-color: #02728B;*/
+    color: white;    
+}
+
+p.heading {
+    font-size: 25px;
+    font-weight: bold;  
+}
+
+p.contact-info {
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    margin-top: 8px;
+    margin-bottom: 1.5px;
+    letter-spacing: 1px;
+    font-weight: lighter;   
+}
+
+p.contact-info:last-child {
+    margin-bottom: 40px;
+}
+}
+
+
+
+
+/* MEDIA Query */
+
+@media (min-width: 600px) {
+
+h1 {
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 50px;
+    letter-spacing: 2px;
+    line-height: 1.2;
+    margin-top: 3px;   
+    margin-bottom: 0px;
+    margin-left: 300px;
+}
+
+h2 {
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    background-color: #FA382F;
+    padding: 5px 10px;
+    display: inline;  
+    color: white;
+    letter-spacing: 2px;
+    text-align: center;  
+}
+
+p {
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+h3 {
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    color:white;
+    letter-spacing: 1px;
+    margin-left: 300px;
+    margin-bottom: 0px;
+    padding-top: 5px;
+}
+
+h4 {
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+    letter-spacing: 1px;
+}
+
+.hero-image {
+    display: flex;
+    flex-direction: column;
+    background-image: url("./assets/confettiblue.jpg");
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  
+
+  img.profile-picture {
+      border-radius: 50%;
+      border: 3px solid white;
+      width: 210px;
+      position: absolute;
+      top: 80%;
+      left: 70%;
+      transform: translate(-50%, -50%);
+      }
+      
+    
+    .container-social-media-icons {
+        margin-right: 220px;
+    }
+
+  .container-tech, .container-featured-projects, .container-my-thoughts, .container-skills {
+      padding-top: 40px;
+      text-align: center;
+  }
+
+  .container-introduction {
+      background-color: #F4F4F4;
+      display: flex;
+    align-self: center;
+      
+  }
+  p.introduction-text, .tech p {
+    line-height: 1.8;
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    background-color: #F4F4F4;
+    opacity: 1;
+    padding: 40px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    
+    margin: auto;
+    max-width: 700px;
+  }
+ 
+  h4.anthropologist {
+      letter-spacing: 1px;
+      color: white;
+      margin-top: 4px;
+      margin-left: 300px;
+      
   }
 
   img.github, img.linkedin, img.stackoverflow {
@@ -191,40 +513,66 @@ h4 {
     margin-left: 20px;  
 }
 
-p.heading-my-thoughts {
+.container-articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;  
+}
+
+.article {
+    width: 35%;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+  
+  padding: 20px; 
+  margin-bottom: 20px;
+  /*box-shadow: 0 2px 5px 0 #d3d3d3;
+  transition: 0.3s;    */ 
+  opacity: .9;
+}
+
+.article img {
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+}
+
+.article-text .date {
+    padding-bottom: 10px;
+    text-align: left;
+    margin-bottom: 5px;
+    margin-top: 40px;   
+}
+
+.article-text .heading-my-thoughts {
+    text-align: left;
     font-size: 20px;
     text-align: left;
     margin-bottom: 0;
     margin-top: 5px;
-    margin-left: 40px;
+    
     margin-right: 40px;
     padding-bottom: 5px;
     line-height: 1.4;  
 }
 
-.thougths img {
-    width: 80%;
-    display: block;
-    margin: auto;
-    margin-top: 50px;
-}
 
-p.date {
-    padding-bottom: 10px;
-    text-align: left;
-    margin-left: 35px;
-    margin-bottom: 5px;
-    margin-top: 40px;   
-}
 
-p.text {
+
+
+.article-text p {
     font-size: 16px;
     text-align: left;
-    margin-left: 40px;
-    margin-right: 40px;
+    
+    
     margin-top: 5px;
     line-height: 1.5;
     letter-spacing: 1px;
+    
 }
 
 .container-skills {
@@ -237,13 +585,17 @@ p.text {
 
 .container-skills-list {
     display: flex;  
-    flex-wrap: wrap;
-    margin-top: 40px;
-    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    margin-top: 40px;  
 }
 
 .card {
     width: 40%;
+}
+
+.card p  {
+    margin-bottom: 8px;
+    margin-top: 8px;
 }
 
 .container-for-more {
@@ -293,4 +645,4 @@ p.contact-info {
 p.contact-info:last-child {
     margin-bottom: 40px;
 }
-  
+}
