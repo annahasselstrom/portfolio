@@ -1,5 +1,6 @@
 body {
-    margin: 0 auto,
+    margin: 0 auto;
+    width: 100%;
 }
 
 * {
@@ -16,32 +17,24 @@ h1 {
     font-family: Montserrat, sans-serif;
     letter-spacing: 2px;
     line-height: 1.2;
-    margin-top: 3px;
-    
+    margin-top: 3px;   
 }
 
 h2 {
     font-family: Montserrat, sans-serif;
     font-weight: bold;
-    font-size: 28px;
+    font-size: 24px;
     background-color: #FA382F;
-    padding: 15px;
-    text-align: center;
+    padding: 5px 10px;
+    display: inline;  
     color: white;
-    margin-left: 40px;
-    margin-right: 40px;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    
-   
     letter-spacing: 2px;
+    text-align: center;  
 }
-
-
 
 p {
     font-family: Montserrat, sans-serif;
-    font-weight: regular;
+    font-weight: 400;
     font-size: 16px;
 }
 
@@ -66,7 +59,7 @@ h4 {
     display: flex;
     flex-direction: column;
     background-image: url("./assets/confettiblue.jpg");
-    height: 520px;
+    height: 540px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -76,32 +69,28 @@ h4 {
   img.profile-picture {
       border-radius: 50%;
       border: 3px solid white;
-      width: 140px;
+      width: 170px;
       position: absolute;
-      top: 90%;
+      top: 87%;
       left: 70%;
       transform: translate(-50%, -50%);
       }
       
-  .container-tech {
+  .container-tech, .container-featured-projects, .container-my-thoughts, .container-skills {
       padding-top: 40px;
+      text-align: center;
   }
 
   p.introduction-text, .tech p {
       line-height: 1.8;
       font-family: Montserrat, sans-serif;
-      font-weight: regular;
+      font-weight: 400;
       background-color: #F4F4F4;
       opacity: 1;
       padding: 40px;
       letter-spacing: 1px;
       font-size: 18px;
-      margin-top: 0px;
-      
-  }
-
-  .tech p {
-      padding-top: 0;
+      margin-top: 0px;   
   }
 
   .frontend-developer {
@@ -115,10 +104,6 @@ h4 {
       margin-top: 4px;
       margin-left: 40px;
   }
-  .tech p {
-      text-align: center;
-      background-color: white;
-  }
 
   img.github, img.linkedin, img.stackoverflow {
       float: right;
@@ -128,35 +113,158 @@ h4 {
       margin-top: 100px;
   }
 
-.container-featured-projects {
+.container-projects {
     background: #F4F4F4;
-    padding-top: 40px;
+    padding-top: 25px;
+    margin-bottom: 25px;
+}
+
+.tech p {
+    text-align: center;
+    background-color: white;
 }
 
 .sub-heading-featured-projects {
     font-family: Montserrat, sans-serif;
-    font-size: 26px;
+    font-size: 23px;
     color: #FA382F;
     font-weight: bold;
     text-align: center;
+    padding-top: 20px;
 }
 
-
-.container-for-img {
+.container-image-project {
     display: flex;
-    
-    padding-top: 50px;
-
 }
 
+.container-image-project img {
+   width: 80%;
+   padding-top: 40px;
+   margin: auto;  
+}
+
+.container-image-project p {
+    
+    flex-direction: column;
+    font-family: Roboto, sans-serif;
+}
+
+.container-text-project {
+    font-family: Roboto, sans-serif;
+    line-height: 1.6;
+    letter-spacing: 1px;
+    margin-left: 40px;
+    margin-right: 20px;
+    text-align: left;
+}
 
 .container-for-text {
     display: inline-flex;
     justify-content: space-evenly;
- 
 }
 
+.container-languages {
+    display: flex;
+}
 
+.container-languages p {
+    background-color:#FDDFE7;
+    font-family: Roboto, sans-serif;
+    margin: 3px;
+    margin-bottom: 20px;
+    padding: 3px;
+    font-size: 12px;
+    opacity: 0.8;   
+}
+
+.container-languages p:first-child {
+    margin-left: 38px;
+}
+
+.container-other-projects {
+    padding-bottom: 60px;
+}
+
+.tech img {
+    width: 80%;
+    margin-right: 20px;
+    margin-left: 20px;  
+}
+
+p.heading-my-thoughts {
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 0;
+    margin-top: 5px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-bottom: 5px;
+    line-height: 1.4;  
+}
+
+.thougths img {
+    width: 80%;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+}
+
+p.date {
+    padding-bottom: 10px;
+    text-align: left;
+    margin-left: 35px;
+    margin-bottom: 5px;
+    margin-top: 40px;   
+}
+
+p.text {
+    font-size: 16px;
+    text-align: left;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 5px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+
+.container-skills {
+    background: #F4F4F4;
+    margin-top: 75px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    margin-bottom: 25px;
+}
+
+.container-skills-list {
+    display: flex;  
+    flex-wrap: wrap;
+    margin-top: 40px;
+    justify-content: space-evenly;
+}
+
+.card {
+    width: 40%;
+}
+
+.container-for-more {
+    padding-top: 70px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.for-more {
+    margin-top: 60px;
+}
+
+.container-for-img img {
+    width: 20px;
+}
+
+.container-for-social-media-text p {
+    font-size: 12px;
+    font-weight: 700;
+    color: #FA382F;
+}
 
 footer {
     display: flex;
@@ -165,16 +273,12 @@ footer {
     padding: 60px;
     background-color: #0097AF;
     /*background-color: #02728B;*/
-    color: white;
-    
-    
-    
+    color: white;    
 }
 
 p.heading {
     font-size: 25px;
-    font-weight: bold;
-    
+    font-weight: bold;  
 }
 
 p.contact-info {
@@ -183,9 +287,7 @@ p.contact-info {
     margin-top: 8px;
     margin-bottom: 1.5px;
     letter-spacing: 1px;
-    font-weight: lighter;
-   
-    
+    font-weight: lighter;   
 }
 
 p.contact-info:last-child {
