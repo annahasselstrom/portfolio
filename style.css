@@ -1,6 +1,7 @@
 body {
     margin: 0 auto;
     width: 100%;
+
 }
 
 * {
@@ -39,6 +40,8 @@ p {
     font-family: Montserrat, sans-serif;
     font-weight: 400;
     font-size: 16px;
+    text-decoration: none;
+
 }
 
 h3 {
@@ -49,6 +52,7 @@ h3 {
     margin-left: 40px;
     margin-bottom: 0px;
     padding-top: 50px;
+
 }
 
 h4 {
@@ -56,8 +60,14 @@ h4 {
     font-weight: bold;
     font-size: 25px;
     letter-spacing: 1px;
+
 }
 
+a {
+    text-decoration: none;
+    color: black;
+    opacity: 1;
+}
 .hero-image {
     display: flex;
     flex-direction: column;
@@ -97,6 +107,7 @@ h4 {
       font-size: 18px;
       margin-top: 0px;   
       opacity: .9;
+
   }
 
 .container-introduction .summary-red-line {
@@ -130,13 +141,45 @@ h4 {
       margin-top: 4px;
       margin-left: 40px;
   }
-
-  img.github, img.linkedin, img.stackoverflow {
+/*
+  img.linkedin {
+    width: 120px;
+    line-height: 120px;
+    border-radius: 50%;
+    text-align: center;
+    border: 3px solid #000;
+    padding: 30px;
+  
+  }
+  
+  img.github, img.stackoverflow {
+      
       float: right;
-      width: 30px;
-      height: 30px;
       margin-right: 30px;
       margin-top: 100px;
+      width: 25px;
+      height: 25px;
+      
+  }
+*/
+  .icon-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 0;
+    margin-top: 100px;
+  }
+
+  .icon {
+    width: 80px;
+    height: 80px;
+    border: white solid 3px;
+    border-radius: 50%;
+    margin-right: 0;
+    margin-left: 10px;
+  }
+
+  .icon-image {
+    padding: 20px;
   }
 
 .container-projects {
@@ -171,6 +214,7 @@ h4 {
     text-align: center;
     color: black;
     opacity: .8; 
+
 }
 
 
@@ -199,6 +243,7 @@ h4 {
     flex-direction: column;
     font-family: Roboto, sans-serif;
     opacity: .9;
+
 }
 
 .container-text-project {
@@ -209,11 +254,13 @@ h4 {
     margin-right: 20px;
     text-align: left;
     opacity: .9;
+
 }
 
 .container-for-text {
     display: inline-flex;
     justify-content: space-evenly;
+
 }
 
 .container-languages {
@@ -227,7 +274,8 @@ h4 {
     margin-bottom: 20px;
     padding: 3px;
     font-size: 12px;
-    opacity: 0.8;   
+    opacity: 0.8;  
+
 }
 
 .container-languages p:first-child {
@@ -269,6 +317,7 @@ p.date {
     margin-left: 35px;
     margin-bottom: 5px;
     margin-top: 40px;   
+
 }
 
 p.text {
@@ -280,6 +329,7 @@ p.text {
     line-height: 1.5;
     letter-spacing: 1px;
     opacity: .9;
+
 }
 
 .container-skills {
@@ -305,6 +355,7 @@ p.text {
 .card p  {
     margin-bottom: 8px;
     margin-top: 8px;
+
 }
 
 .container-for-more {
@@ -375,12 +426,13 @@ h1 {
     margin-left: 300px;
 }
 
-h2 {
+h2, h2.desktop-version {
     font-family: Montserrat, sans-serif;
     font-weight: bold;
     font-size: 24px;
     background-color: #FA382F;
     padding: 5px 10px;
+    
     display: inline;  
     color: white;
     letter-spacing: 2px;
@@ -410,11 +462,15 @@ h4 {
     letter-spacing: 1px;
 }
 
+a {
+    color: black;
+    opacity: 1;
+}
 .hero-image {
     display: flex;
     flex-direction: column;
     background-image: url("./assets/confettiblue.jpg");
-    height: 400px;
+    height: 500px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -432,9 +488,32 @@ h4 {
       z-index: 10;
       }
       
-    .container-social-media-icons {
-        margin-right: 220px;
-    }
+
+      .icon-container {
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 0;
+        margin-top: 100px;
+      }
+
+      .icon {
+        width: 80px;
+        height: 80px;
+        border: white solid 3px;
+        border-radius: 50%;
+        margin-right: 3px;
+        margin-left: 3px;
+    
+      }
+
+      .icon:last-child {
+          margin-right: 100px;
+      }
+
+      .icon-image {
+        padding: 20px;
+      }
+
 
   .container-tech, .container-featured-projects, .container-my-thoughts, .container-skills {
       padding-top: 40px;
@@ -453,6 +532,10 @@ h4 {
     margin: auto;
     opacity: .9;
     max-width: 700px;
+}
+
+.tech p {
+    margin-top: 4px;
 }
 
 .container-introduction {
@@ -489,13 +572,6 @@ h4 {
       
   }
 
-  img.github, img.linkedin, img.stackoverflow {
-      float: right;
-      width: 50px;
-      height: 50px;
-      margin-right: 30px;
-      margin-top: 100px;
-  }
 
 .container-projects {
     background: #F4F4F4;
@@ -512,14 +588,17 @@ h4 {
     display: none;
 }
 
-.sub-heading-featured-projects {
+h5 {
+    display: block;
     font-family: Montserrat, sans-serif;
     font-size: 23px;
     color: #FA382F;
     font-weight: bold;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 20px; 
 }
+
+
 
 .container-image-project {
     display: flex;
@@ -527,42 +606,55 @@ h4 {
     text-align: center;
     color: black;
     opacity: .8;
+
     
 }
 
 .container-image-project img {
-   width: 80%;
-   padding-top: 40px;
-   margin: auto;  
-   opacity: .7;
-   filter: blur(2px);
+
+   display: block;
+    margin: auto;
+    height: auto;
+    width: 90%;
+    overflow: hidden;
+    max-width: 100%;
    
 
 }
 .center {
-    position: absolute;
-    top: 50%;
+    /*position: absolute;
+    top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-family: Roboto, sans-serif;
-    font-size: 40px;
     letter-spacing: 2px;
-    font-size: 48px;
+    font-size: 14px;*/
+    display: none;
   }
 
+
+.container-text-project p {
+    text-align: left;
+    margin-bottom: 0px;
+    text-decoration: none;
+
+}
 .container-image-project p {
     
     flex-direction: column;
     font-family: Roboto, sans-serif;
+    text-decoration: none;
+
+    
 }
 
 .container-text-project {
     font-family: Roboto, sans-serif;
     line-height: 1.6;
     letter-spacing: 1px;
-    margin-left: 40px;
-    margin-right: 20px;
     text-align: left;
+    text-decoration: none;
+
 }
 
 .container-for-text {
@@ -572,24 +664,42 @@ h4 {
 
 .container-languages {
     display: flex;
+    text-align: left;
+    text-decoration: none;
+
+    
 }
 
 .container-languages p {
     background-color:#FDDFE7;
     font-family: Roboto, sans-serif;
-    margin: 3px;
-    margin-bottom: 20px;
     padding: 3px;
     font-size: 12px;
     opacity: 0.8;   
-}
+    text-decoration: none;
+    color: black;
 
-.container-languages p:first-child {
-    margin-left: 38px;
+
+}
+a {
+    text-decoration: none;
 }
 
 .container-other-projects {
     padding-bottom: 60px;
+    /*display: flex;*/
+
+}
+
+.other-projects {
+    display: flex;
+    flex-direction: column;
+
+
+}
+.container-text-project {
+    margin: auto;
+   
 }
 
 .tech img {
@@ -598,16 +708,20 @@ h4 {
     margin-left: 20px;  
 }
 
+
+
 .container-articles {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;  
 }
 
-.desktop-version {
+
+.desktop-version  {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;  
+    margin-top: 40px;
 }
 
 .container-image-project {
@@ -618,19 +732,21 @@ h4 {
   
   padding: 20px; 
   margin-bottom: 20px;
-  /*box-shadow: 0 2px 5px 0 #d3d3d3;
-  transition: 0.3s;    */ 
+  
   opacity: .9;
 }
 
 .container-image-project img {
     display: block;
     margin: auto;
-    margin-top: 50px;
+    
     height: auto;
     width: 100%;
     overflow: hidden;
+    filter: contrast(70%);
+    
 }
+
 
 .article {
     width: 35%;
@@ -717,15 +833,46 @@ h4 {
     margin-top: 60px;
 }
 
-.container-for-img img {
-    width: 20px;
-}
+.icon-container-bottom {
+    display: flex;
+    justify-content: center;
+    margin-right: 0;
+    margin-top: 80px;
+  }
 
-.container-for-social-media-text p {
-    font-size: 12px;
-    font-weight: 700;
-    color: #FA382F;
-}
+.icon-bottom {
+      text-align: center;
+      text-decoration: none;
+      
+  }
+
+  .stackoverflow, .github, .linkedin {
+      color: #FA382F;
+      text-align: center;
+  }
+
+  .linkedin {
+      margin-top: 30px;
+  }
+
+  .stackoverflow {
+      margin-right: 500px;
+  }
+
+  .icon-bottom {
+    width: 110px;
+    height: 110px;
+    border:  #FA382F solid 3px;
+    border-radius: 50%;
+    margin-right: 40px;
+    margin-left: 40px;
+
+  }
+  .icon-image-bottom {
+    padding: 20px;
+  }
+
+
 
 footer {
     display: flex;
