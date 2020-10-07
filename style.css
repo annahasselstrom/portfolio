@@ -86,7 +86,7 @@ h4 {
       text-align: center;
   }
 
-  p.introduction-text, .tech p {
+  .container-introduction p, .tech p {
       line-height: 1.8;
       font-family: Montserrat, sans-serif;
       font-weight: 400;
@@ -98,6 +98,26 @@ h4 {
       margin-top: 0px;   
       opacity: .9;
   }
+
+.container-introduction .summary-red-line {
+    display: inline-block;
+    background: #FF484C;
+    width: 80px;
+    height: 3px;
+    border-radius: 10px;
+    margin-bottom: 5px;  
+}
+
+.summary-red-dot {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border: 2px solid #FF484C;
+    background-color: #FF484C;
+    margin-right: 15px;
+    margin-left: -6px;
+    border-radius: 50%;
+}
 
   .frontend-developer {
       margin-bottom: 0px;
@@ -131,6 +151,11 @@ h4 {
     opacity: .9;
 }
 
+.desktop-version {
+    display: none;
+}
+
+
 .sub-heading-featured-projects {
     font-family: Montserrat, sans-serif;
     font-size: 23px;
@@ -142,12 +167,31 @@ h4 {
 
 .container-image-project {
     display: flex;
+    position: relative;
+    text-align: center;
+    color: black;
+    opacity: .8; 
 }
+
+
 
 .container-image-project img {
    width: 80%;
    padding-top: 40px;
    margin: auto;  
+   filter: blur(2px);
+   opacity: .7;
+}
+
+.center {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Roboto, sans-serif;
+    font-size: 30px;
+    letter-spacing: 2px;
+
 }
 
 .container-image-project p {
@@ -377,8 +421,6 @@ h4 {
     position: relative;
   }
 
-  
-
   img.profile-picture {
       border-radius: 50%;
       border: 3px solid white;
@@ -387,9 +429,9 @@ h4 {
       top: 80%;
       left: 70%;
       transform: translate(-50%, -50%);
+      z-index: 10;
       }
       
-    
     .container-social-media-icons {
         margin-right: 220px;
     }
@@ -399,13 +441,7 @@ h4 {
       text-align: center;
   }
 
-  .container-introduction {
-      background-color: #F4F4F4;
-      display: flex;
-    align-self: center;
-      
-  }
-  p.introduction-text, .tech p {
+  .container-introduction p, .tech p {
     line-height: 1.8;
     font-family: Montserrat, sans-serif;
     font-weight: 400;
@@ -414,11 +450,37 @@ h4 {
     padding: 40px;
     letter-spacing: 1px;
     font-size: 18px;
-    
     margin: auto;
+    opacity: .9;
     max-width: 700px;
-  }
- 
+}
+
+.container-introduction {
+    background-color: #F4F4F4;
+    display: flex;
+  
+    
+}
+.container-introduction .summary-red-line {
+  display: inline-block;
+  background: #FF484C;
+  width: 80px;
+  height: 3px;
+  border-radius: 10px;
+  margin-bottom: 5px;  
+}
+
+.summary-red-dot {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border: 2px solid #FF484C;
+  background-color: #FF484C;
+  margin-right: 15px;
+  margin-left: -6px;
+  border-radius: 50%;
+}
+
   h4.anthropologist {
       letter-spacing: 1px;
       color: white;
@@ -429,8 +491,8 @@ h4 {
 
   img.github, img.linkedin, img.stackoverflow {
       float: right;
-      width: 30px;
-      height: 30px;
+      width: 50px;
+      height: 50px;
       margin-right: 30px;
       margin-top: 100px;
   }
@@ -446,6 +508,10 @@ h4 {
     background-color: white;
 }
 
+.mobile-version {
+    display: none;
+}
+
 .sub-heading-featured-projects {
     font-family: Montserrat, sans-serif;
     font-size: 23px;
@@ -457,13 +523,32 @@ h4 {
 
 .container-image-project {
     display: flex;
+    position: relative;
+    text-align: center;
+    color: black;
+    opacity: .8;
+    
 }
 
 .container-image-project img {
    width: 80%;
    padding-top: 40px;
    margin: auto;  
+   opacity: .7;
+   filter: blur(2px);
+   
+
 }
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Roboto, sans-serif;
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-size: 48px;
+  }
 
 .container-image-project p {
     
@@ -519,6 +604,34 @@ h4 {
     justify-content: center;  
 }
 
+.desktop-version {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;  
+}
+
+.container-image-project {
+    width: 35%;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+  
+  padding: 20px; 
+  margin-bottom: 20px;
+  /*box-shadow: 0 2px 5px 0 #d3d3d3;
+  transition: 0.3s;    */ 
+  opacity: .9;
+}
+
+.container-image-project img {
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+}
+
 .article {
     width: 35%;
     text-align: left;
@@ -559,10 +672,6 @@ h4 {
     padding-bottom: 5px;
     line-height: 1.4;  
 }
-
-
-
-
 
 .article-text p {
     font-size: 16px;
