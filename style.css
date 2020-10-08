@@ -177,7 +177,7 @@ h4.anthropologist {
     opacity: .9;
 }
 
-.desktop-version {
+.desktop-version, .desktop-version-other-projects {
     display: none;
 }
 
@@ -185,7 +185,7 @@ h4.anthropologist {
     margin-top: 20px;
 }
 
-.sub-heading-featured-projects {
+h5.sub-heading {
     font-family: Montserrat, sans-serif;
     font-size: 23px;
     color: #FA382F;
@@ -401,7 +401,6 @@ p.contact-info:last-child {
 }
 
 /* MEDIA Query */
-
 @media (min-width: 600px) {
 
 h1 {
@@ -413,7 +412,7 @@ h1 {
     line-height: 1.2;
     margin-top: 3px;   
     margin-bottom: 0px;
-    margin-left: 300px;
+    margin-left: 80px;
 }
 
 h2, h2.desktop-version {
@@ -439,7 +438,7 @@ h3 {
     font-size: 20px;
     color:white;
     letter-spacing: 1px;
-    margin-left: 300px;
+    margin-left: 80px;
     margin-bottom: 0px;
     padding-top: 5px;
 }
@@ -554,7 +553,7 @@ h4.anthropologist {
     letter-spacing: 1px;
     color: white;
     margin-top: 4px;
-    margin-left: 300px;
+    margin-left: 80px;
 }
 
 .container-projects {
@@ -853,5 +852,53 @@ p.contact-info {
 
 p.contact-info:last-child {
     margin-bottom: 40px;
+}
+}
+
+@media (min-width: 1200px) {
+.hero-image {
+    display: flex;
+    flex-direction: column;
+    background-image: url("./assets/confettiblue.jpg");
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+img.profile-picture {
+    border-radius: 50%;
+    border: 3px solid white;
+    width: 210px;
+    position: absolute;
+    top: 80%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+}
+    
+.icon-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 0;
+    margin-top: 100px;
+}
+
+.icon {
+    width: 80px;
+    height: 80px;
+    border: white solid 3px;
+    border-radius: 50%;
+    margin-right: 3px;
+    margin-left: 3px;
+}
+
+.icon:last-child {
+    margin-right: 100px;
+}
+
+.icon-image {
+    padding: 20px;
 }
 }
