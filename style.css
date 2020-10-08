@@ -561,7 +561,6 @@ h5 {
 }
 
 .container-image-project img {
-
    display: block;
     margin: auto;
     height: auto;
@@ -584,15 +583,11 @@ h5 {
 .container-text-project p {
     text-align: left;
     margin-bottom: 0px;
-    text-decoration: none;
-
 }
 
 .container-image-project p {
-    
     flex-direction: column;
     font-family: Roboto, sans-serif;
-    text-decoration: none;
 }
 
 .container-text-project {
@@ -628,17 +623,27 @@ a {
     text-decoration: none;
 }
 
-.container-other-projects {
-    padding-bottom: 60px;
-}
 
-.other-projects {
+container.other-projects {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
 }
 
-.container-text-project {
-    margin: auto;
+.desktop-version-other-projects {
+    display: flex;
+    padding-bottom: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+}
+
+.desktop-version-other-projects .container-text-project {
+    width: 35%;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px; 
+    margin-bottom: 20px;
 }
 
 .tech img {
