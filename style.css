@@ -402,6 +402,7 @@ p.contact-info:last-child {
 }
 
 /* MEDIA Query */
+
 @media (min-width: 600px) {
 
 h1 {
@@ -413,7 +414,7 @@ h1 {
     line-height: 1.2;
     margin-top: 3px;   
     margin-bottom: 0px;
-    margin-left: 80px;
+    margin-left: 90px;
 }
 
 h2, h2.desktop-version {
@@ -439,7 +440,7 @@ h3 {
     font-size: 20px;
     color:white;
     letter-spacing: 1px;
-    margin-left: 80px;
+    margin-left: 90px;
     margin-bottom: 0px;
     padding-top: 5px;
 }
@@ -509,15 +510,10 @@ img.profile-picture {
 
 .container-introduction p, .tech p {
     line-height: 1.8;
-    font-family: Montserrat, sans-serif;
     font-weight: 400;
-    background-color: #F4F4F4;
-    opacity: 1;
     padding: 40px;
-    letter-spacing: 1px;
     font-size: 18px;
     margin: auto;
-    opacity: .9;
     max-width: 700px;
 }
 
@@ -530,7 +526,7 @@ img.profile-picture {
     display: flex;
   
 }
-.container-introduction .summary-red-line {
+.summary-red-line {
     display: inline-block;
     background: #FF484C;
     width: 80px;
@@ -551,10 +547,9 @@ img.profile-picture {
 }
 
 h4.anthropologist {
-    letter-spacing: 1px;
     color: white;
     margin-top: 4px;
-    margin-left: 80px;
+    margin-left: 90px;
 }
 
 .container-projects {
@@ -601,13 +596,6 @@ h5 {
    }
 
 .center {
-    /*position: absolute;
-    top: 70%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-family: Roboto, sans-serif;
-    letter-spacing: 2px;
-    font-size: 14px;*/
     display: none;
   }
 
@@ -616,17 +604,11 @@ h5 {
     margin-bottom: 0px;
 }
 
-.container-image-project p {
-    flex-direction: column;
-    font-family: Roboto, sans-serif;
-}
-
 .container-text-project {
     font-family: Roboto, sans-serif;
     line-height: 1.6;
     letter-spacing: 1px;
     text-align: left;
-    text-decoration: none;
 }
 
 .container-for-text {
@@ -637,7 +619,6 @@ h5 {
 .container-languages {
     display: flex;
     text-align: left;
-    text-decoration: none;
 }
 
 .container-languages p {
@@ -648,13 +629,14 @@ h5 {
     opacity: 0.8;   
     text-decoration: none;
     color: black;
+    margin-right: 4px;
 }
 
 a {
     text-decoration: none;
 }
 
-container.other-projects {
+.container.other-projects {
     display: flex;
     justify-content: center;
 }
@@ -674,12 +656,6 @@ container.other-projects {
     flex-wrap: wrap;
     padding: 20px; 
     margin-bottom: 20px;
-}
-
-.tech img {
-    width: 80%;
-    margin-right: 20px;
-    margin-left: 20px;  
 }
 
 .container-articles {
@@ -742,22 +718,7 @@ container.other-projects {
     margin-top: 40px;   
 }
 
-.article-text .heading-my-thoughts {
-    text-align: left;
-    font-size: 20px;
-    text-align: left;
-    margin-bottom: 0;
-    margin-top: 5px;
-    
-    margin-right: 40px;
-    padding-bottom: 5px;
-    line-height: 1.4;  
-}
-
 .article-text p {
-    font-size: 16px;
-    text-align: left;
-    margin-top: 5px;
     line-height: 1.5;
     letter-spacing: 1px;
 }
@@ -802,10 +763,6 @@ container.other-projects {
     margin-top: 80px;
   }
 
-.icon-bottom {
-      text-align: center;
-  }
-
 .stackoverflow, .github, .linkedin {
     color: #FA382F;
     text-align: center;
@@ -822,11 +779,6 @@ container.other-projects {
     border-radius: 50%;
     margin-right: 40px;
     margin-left: 40px;
-
-}
-
-.icon-image-bottom {
-    padding: 20px;
 }
 
 footer {
@@ -835,7 +787,6 @@ footer {
     text-align: center;
     padding: 60px;
     background-color: #0097AF;
-    /*background-color: #02728B;*/
     color: white;    
 }
 
@@ -857,6 +808,8 @@ p.contact-info:last-child {
     margin-bottom: 40px;
 }
 }
+
+/* MEDIA QUERY */
 
 @media (min-width: 1200px) {
 .hero-image {
@@ -880,28 +833,8 @@ img.profile-picture {
     transform: translate(-50%, -50%);
     z-index: 10;
 }
-    
-.icon-container {
-    display: flex;
-    justify-content: flex-end;
-    margin-right: 0;
-    margin-top: 100px;
-}
 
-.icon {
-    width: 80px;
-    height: 80px;
-    border: white solid 3px;
-    border-radius: 50%;
-    margin-right: 3px;
-    margin-left: 3px;
-}
-
-.icon:last-child {
-    margin-right: 100px;
-}
-
-.icon-image {
-    padding: 20px;
+h1, h3, h4.anthropologist {
+    margin-left: 250px;
 }
 }
