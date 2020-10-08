@@ -200,6 +200,7 @@ h5.sub-heading {
     text-align: center;
     color: black;
     opacity: .8; 
+    
 }
 
 .container-image-project img {
@@ -207,7 +208,7 @@ h5.sub-heading {
    padding-top: 40px;
    margin: auto;  
    filter: blur(2px);
-   opacity: .7;
+   filter: sepia() saturate(4) hue-rotate(312deg) brightness(80%) opacity(5);
 }
 
 .center {
@@ -711,6 +712,8 @@ container.other-projects {
     width: 100%;
     overflow: hidden;
     filter: contrast(70%);
+    filter: sepia() saturate(4) hue-rotate(312deg) brightness(80%) opacity(5);
+    opacity: .8;
 }
 
 .article {
