@@ -1,12 +1,13 @@
 body {
     margin: 0 auto;
-    width: 100%;
-
+        width: 100%;
 }
 
 * {
     box-sizing: border-box;
 }
+
+/* MEDIA QUERY */
 
 @media (max-width: 599px) {
 h1 {
@@ -41,7 +42,6 @@ p {
     font-weight: 400;
     font-size: 16px;
     text-decoration: none;
-
 }
 
 h3 {
@@ -52,7 +52,6 @@ h3 {
     margin-left: 40px;
     margin-bottom: 0px;
     padding-top: 50px;
-
 }
 
 h4 {
@@ -60,7 +59,6 @@ h4 {
     font-weight: bold;
     font-size: 25px;
     letter-spacing: 1px;
-
 }
 
 a {
@@ -68,6 +66,7 @@ a {
     color: black;
     opacity: 1;
 }
+
 .hero-image {
     display: flex;
     flex-direction: column;
@@ -77,38 +76,36 @@ a {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-  
-  }
+}
 
   img.profile-picture {
-      border-radius: 50%;
-      border: 3px solid white;
-      width: 170px;
-      position: absolute;
-      top: 87%;
-      left: 70%;
-      transform: translate(-50%, -50%);
-      z-index: 10;
-      }
+    border-radius: 50%;
+    border: 3px solid white;
+    width: 170px;
+    position: absolute;
+    top: 87%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+}
       
-  .container-tech, .container-featured-projects, .container-my-thoughts, .container-skills {
-      padding-top: 40px;
-      text-align: center;
-  }
+.container-tech, .container-featured-projects, .container-my-thoughts, .container-skills {
+    padding-top: 40px;
+    text-align: center;
+}
 
-  .container-introduction p, .tech p {
-      line-height: 1.8;
-      font-family: Montserrat, sans-serif;
-      font-weight: 400;
-      background-color: #F4F4F4;
-      opacity: 1;
-      padding: 40px;
-      letter-spacing: 1px;
-      font-size: 18px;
-      margin-top: 0px;   
-      opacity: .9;
-
-  }
+.container-introduction p, .tech p {
+    line-height: 1.8;
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    background-color: #F4F4F4;
+    opacity: 1;
+    padding: 40px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    margin-top: 0px;   
+    opacity: .9;
+}
 
 .container-introduction .summary-red-line {
     display: inline-block;
@@ -130,57 +127,37 @@ a {
     border-radius: 50%;
 }
 
-  .frontend-developer {
-      margin-bottom: 0px;
-      margin-left: 40px;
-  }
+.frontend-developer {
+    margin-bottom: 0px;
+    margin-left: 40px;
+}
  
-  h4.anthropologist {
-      letter-spacing: 1px;
-      color: white;
-      margin-top: 4px;
-      margin-left: 40px;
-  }
-/*
-  img.linkedin {
-    width: 120px;
-    line-height: 120px;
-    border-radius: 50%;
-    text-align: center;
-    border: 3px solid #000;
-    padding: 30px;
-  
-  }
-  
-  img.github, img.stackoverflow {
-      
-      float: right;
-      margin-right: 30px;
-      margin-top: 100px;
-      width: 25px;
-      height: 25px;
-      
-  }
-*/
-  .icon-container {
+h4.anthropologist {
+    letter-spacing: 1px;
+    color: white;
+    margin-top: 4px;
+    margin-left: 40px;
+}
+
+.icon-container {
     display: flex;
     justify-content: flex-end;
     margin-right: 0;
     margin-top: 100px;
-  }
+}
 
-  .icon {
+.icon {
     width: 80px;
     height: 80px;
     border: white solid 3px;
     border-radius: 50%;
     margin-right: 0;
     margin-left: 10px;
-  }
+}
 
-  .icon-image {
+.icon-image {
     padding: 20px;
-  }
+}
 
 .container-projects {
     background: #F4F4F4;
@@ -198,7 +175,6 @@ a {
     display: none;
 }
 
-
 .sub-heading-featured-projects {
     font-family: Montserrat, sans-serif;
     font-size: 23px;
@@ -214,10 +190,7 @@ a {
     text-align: center;
     color: black;
     opacity: .8; 
-
 }
-
-
 
 .container-image-project img {
    width: 80%;
@@ -235,15 +208,12 @@ a {
     font-family: Roboto, sans-serif;
     font-size: 30px;
     letter-spacing: 2px;
-
 }
 
 .container-image-project p {
-    
     flex-direction: column;
     font-family: Roboto, sans-serif;
     opacity: .9;
-
 }
 
 .container-text-project {
@@ -254,13 +224,11 @@ a {
     margin-right: 20px;
     text-align: left;
     opacity: .9;
-
 }
 
 .container-for-text {
     display: inline-flex;
     justify-content: space-evenly;
-
 }
 
 .container-languages {
@@ -275,7 +243,6 @@ a {
     padding: 3px;
     font-size: 12px;
     opacity: 0.8;  
-
 }
 
 .container-languages p:first-child {
@@ -317,7 +284,6 @@ p.date {
     margin-left: 35px;
     margin-bottom: 5px;
     margin-top: 40px;   
-
 }
 
 p.text {
@@ -329,7 +295,6 @@ p.text {
     line-height: 1.5;
     letter-spacing: 1px;
     opacity: .9;
-
 }
 
 .container-skills {
@@ -349,13 +314,11 @@ p.text {
 
 .card {
     width: 40%;
-    
 }
 
 .card p  {
     margin-bottom: 8px;
     margin-top: 8px;
-
 }
 
 .container-for-more {
@@ -384,7 +347,6 @@ footer {
     text-align: center;
     padding: 60px;
     background-color: #0097AF;
-    /*background-color: #02728B;*/
     color: white;    
 }
 
@@ -406,9 +368,6 @@ p.contact-info:last-child {
     margin-bottom: 40px;
 }
 }
-
-
-
 
 /* MEDIA Query */
 
@@ -466,6 +425,7 @@ a {
     color: black;
     opacity: 1;
 }
+
 .hero-image {
     display: flex;
     flex-direction: column;
@@ -475,52 +435,49 @@ a {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-  }
+}
 
-  img.profile-picture {
-      border-radius: 50%;
-      border: 3px solid white;
-      width: 210px;
-      position: absolute;
-      top: 80%;
-      left: 70%;
-      transform: translate(-50%, -50%);
-      z-index: 10;
-      }
-      
-
-      .icon-container {
-        display: flex;
-        justify-content: flex-end;
-        margin-right: 0;
-        margin-top: 100px;
-      }
-
-      .icon {
-        width: 80px;
-        height: 80px;
-        border: white solid 3px;
-        border-radius: 50%;
-        margin-right: 3px;
-        margin-left: 3px;
+img.profile-picture {
+    border-radius: 50%;
+    border: 3px solid white;
+    width: 210px;
+    position: absolute;
+    top: 80%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+}
     
-      }
+.icon-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 0;
+    margin-top: 100px;
+}
 
-      .icon:last-child {
-          margin-right: 100px;
-      }
+.icon {
+    width: 80px;
+    height: 80px;
+    border: white solid 3px;
+    border-radius: 50%;
+    margin-right: 3px;
+    margin-left: 3px;
+}
 
-      .icon-image {
-        padding: 20px;
-      }
+.icon:last-child {
+    margin-right: 100px;
+}
 
+.icon-image {
+    padding: 20px;
+}
 
-  .container-tech, .container-featured-projects, .container-my-thoughts, .container-skills {
-      padding-top: 40px;
-      text-align: center;
-  }
+.container-tech, .container-featured-projects, .container-my-thoughts, .container-skills {
+    padding-top: 40px;
+    text-align: center;
+}
 
-  .container-introduction p, .tech p {
+.container-introduction p, .tech p {
     line-height: 1.8;
     font-family: Montserrat, sans-serif;
     font-weight: 400;
@@ -542,36 +499,33 @@ a {
     background-color: #F4F4F4;
     display: flex;
   
-    
 }
 .container-introduction .summary-red-line {
-  display: inline-block;
-  background: #FF484C;
-  width: 80px;
-  height: 3px;
-  border-radius: 10px;
-  margin-bottom: 5px;  
+    display: inline-block;
+    background: #FF484C;
+    width: 80px;
+    height: 3px;
+    border-radius: 10px;
+    margin-bottom: 5px;  
 }
 
 .summary-red-dot {
-  display: inline-block;
-  width: 15px;
-  height: 15px;
-  border: 2px solid #FF484C;
-  background-color: #FF484C;
-  margin-right: 15px;
-  margin-left: -6px;
-  border-radius: 50%;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border: 2px solid #FF484C;
+    background-color: #FF484C;
+    margin-right: 15px;
+    margin-left: -6px;
+    border-radius: 50%;
 }
 
-  h4.anthropologist {
-      letter-spacing: 1px;
-      color: white;
-      margin-top: 4px;
-      margin-left: 300px;
-      
-  }
-
+h4.anthropologist {
+    letter-spacing: 1px;
+    color: white;
+    margin-top: 4px;
+    margin-left: 300px;
+}
 
 .container-projects {
     background: #F4F4F4;
@@ -598,16 +552,12 @@ h5 {
     padding-top: 20px; 
 }
 
-
-
 .container-image-project {
     display: flex;
     position: relative;
     text-align: center;
     color: black;
     opacity: .8;
-
-    
 }
 
 .container-image-project img {
@@ -618,9 +568,8 @@ h5 {
     width: 90%;
     overflow: hidden;
     max-width: 100%;
-   
+   }
 
-}
 .center {
     /*position: absolute;
     top: 70%;
@@ -632,20 +581,18 @@ h5 {
     display: none;
   }
 
-
 .container-text-project p {
     text-align: left;
     margin-bottom: 0px;
     text-decoration: none;
 
 }
+
 .container-image-project p {
     
     flex-direction: column;
     font-family: Roboto, sans-serif;
     text-decoration: none;
-
-    
 }
 
 .container-text-project {
@@ -654,7 +601,6 @@ h5 {
     letter-spacing: 1px;
     text-align: left;
     text-decoration: none;
-
 }
 
 .container-for-text {
@@ -666,8 +612,6 @@ h5 {
     display: flex;
     text-align: left;
     text-decoration: none;
-
-    
 }
 
 .container-languages p {
@@ -678,28 +622,23 @@ h5 {
     opacity: 0.8;   
     text-decoration: none;
     color: black;
-
-
 }
+
 a {
     text-decoration: none;
 }
 
 .container-other-projects {
     padding-bottom: 60px;
-    /*display: flex;*/
-
 }
 
 .other-projects {
     display: flex;
     flex-direction: column;
-
-
 }
+
 .container-text-project {
     margin: auto;
-   
 }
 
 .tech img {
@@ -708,14 +647,11 @@ a {
     margin-left: 20px;  
 }
 
-
-
 .container-articles {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;  
 }
-
 
 .desktop-version  {
     display: flex;
@@ -729,36 +665,28 @@ a {
     text-align: left;
     display: flex;
     flex-wrap: wrap;
-  
-  padding: 20px; 
-  margin-bottom: 20px;
-  
-  opacity: .9;
+    padding: 20px; 
+    margin-bottom: 20px;
+    opacity: .9;
 }
 
 .container-image-project img {
     display: block;
     margin: auto;
-    
     height: auto;
     width: 100%;
     overflow: hidden;
     filter: contrast(70%);
-    
 }
-
 
 .article {
     width: 35%;
     text-align: left;
     display: flex;
     flex-wrap: wrap;
-  
-  padding: 20px; 
-  margin-bottom: 20px;
-  /*box-shadow: 0 2px 5px 0 #d3d3d3;
-  transition: 0.3s;    */ 
-  opacity: .9;
+    padding: 20px; 
+    margin-bottom: 20px;
+    opacity: .9;
 }
 
 .article img {
@@ -792,12 +720,9 @@ a {
 .article-text p {
     font-size: 16px;
     text-align: left;
-    
-    
     margin-top: 5px;
     line-height: 1.5;
     letter-spacing: 1px;
-    
 }
 
 .container-skills {
@@ -825,7 +750,7 @@ a {
 
 .container-for-more {
     padding-top: 70px;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
     text-align: center;
 }
 
@@ -842,24 +767,18 @@ a {
 
 .icon-bottom {
       text-align: center;
-      text-decoration: none;
-      
   }
 
-  .stackoverflow, .github, .linkedin {
-      color: #FA382F;
-      text-align: center;
-  }
+.stackoverflow, .github, .linkedin {
+    color: #FA382F;
+    text-align: center;
+}
 
-  .linkedin {
-      margin-top: 30px;
-  }
+.linkedin {
+    margin-top: 30px;
+}
 
-  .stackoverflow {
-      margin-right: 500px;
-  }
-
-  .icon-bottom {
+.icon-bottom {
     width: 110px;
     height: 110px;
     border:  #FA382F solid 3px;
@@ -867,12 +786,11 @@ a {
     margin-right: 40px;
     margin-left: 40px;
 
-  }
-  .icon-image-bottom {
+}
+
+.icon-image-bottom {
     padding: 20px;
-  }
-
-
+}
 
 footer {
     display: flex;
