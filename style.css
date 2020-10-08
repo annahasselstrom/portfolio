@@ -143,20 +143,26 @@ h4.anthropologist {
     display: flex;
     justify-content: flex-end;
     margin-right: 0;
-    margin-top: 100px;
+    margin-top: 80px;
 }
 
 .icon {
-    width: 80px;
-    height: 80px;
+    width: 50px;
+    height: 50px;
     border: white solid 3px;
     border-radius: 50%;
     margin-right: 0;
-    margin-left: 10px;
+    margin-left: 5px;
 }
 
 .icon-image {
-    padding: 20px;
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 25px;
+}
+
+.icon:last-child {
+    margin-right: 30px;
 }
 
 .container-projects {
@@ -173,6 +179,10 @@ h4.anthropologist {
 
 .desktop-version {
     display: none;
+}
+
+.mobile-version {
+    margin-top: 20px;
 }
 
 .sub-heading-featured-projects {
@@ -331,14 +341,35 @@ p.text {
     margin-top: 60px;
 }
 
-.container-for-img img {
-    width: 20px;
+.icon-container-bottom {
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+
+.icon-bottom {
+    text-align: center;
 }
 
-.container-for-social-media-text p {
-    font-size: 12px;
-    font-weight: 700;
+.stackoverflow, .github, .linkedin {
     color: #FA382F;
+    font-size: 12px;
+    margin-top: 30px;
+}
+
+a.icon-bottom {
+    padding-top: 8px;
+    padding-right: 12px;
+}
+
+.icon-bottom {
+    width: 70px;
+    height: 70px;
+    border:  #FA382F solid 4px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 footer {
@@ -391,7 +422,6 @@ h2, h2.desktop-version {
     font-size: 24px;
     background-color: #FA382F;
     padding: 5px 10px;
-    
     display: inline;  
     color: white;
     letter-spacing: 2px;
