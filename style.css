@@ -561,12 +561,13 @@ h5 {
 }
 
 .container-image-project img {
-   display: block;
-    margin: auto;
-    height: auto;
-    width: 90%;
-    overflow: hidden;
     max-width: 100%;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    height: auto;
+    width: 100%;
+    overflow: hidden;
    }
 
 .center {
@@ -622,7 +623,6 @@ h5 {
 a {
     text-decoration: none;
 }
-
 
 container.other-projects {
     display: flex;
