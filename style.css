@@ -587,7 +587,7 @@ h5 {
 
 .container-image-project img {
     max-width: 100%;
-    display: block;
+    display: flex;
     margin: auto;
     margin-top: 50px;
     height: auto;
@@ -596,7 +596,7 @@ h5 {
    }
 
 .center {
-    display: none;
+    display: none
   }
 
 .container-text-project p {
@@ -636,10 +636,11 @@ a {
     text-decoration: none;
 }
 
-.container.other-projects {
+a .container.other-projects {
     display: flex;
     justify-content: center;
 }
+
 
 .desktop-version-other-projects {
     display: flex;
@@ -649,7 +650,8 @@ a {
     justify-content: center; 
 }
 
-.desktop-version-other-projects .container-text-project {
+
+a .desktop-version-other-projects {
     width: 35%;
     text-align: left;
     display: flex;
@@ -671,7 +673,8 @@ a {
     margin-top: 40px;
 }
 
-.container-image-project {
+
+.new {
     width: 35%;
     text-align: left;
     display: flex;
@@ -681,6 +684,29 @@ a {
     opacity: .9;
 }
 
+a .container-image-project {
+    width: 35%;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px; 
+    margin-bottom: 20px;
+    opacity: .9;
+}
+
+a .container-image-project {
+    width: 100%;
+    display: block;
+    margin: auto;
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+    filter: contrast(70%);
+    filter: sepia() saturate(4) hue-rotate(312deg) brightness(80%) opacity(5);
+    opacity: .8;
+}
+
+/*
 .container-image-project img {
     display: block;
     margin: auto;
@@ -691,6 +717,7 @@ a {
     filter: sepia() saturate(4) hue-rotate(312deg) brightness(80%) opacity(5);
     opacity: .8;
 }
+*/
 
 .article {
     width: 35%;
