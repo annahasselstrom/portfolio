@@ -793,7 +793,7 @@ a .container-image-project {
 }
 */
 
-.article {
+article {
     width: 35%;
     text-align: left;
     display: flex;
@@ -803,7 +803,7 @@ a .container-image-project {
     opacity: .9;
 }
 
-.article img {
+article img {
     display: block;
     margin: auto;
     margin-top: 50px;
