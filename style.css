@@ -190,6 +190,11 @@ h4.anthropologist {
     padding-bottom: 60px;
 }
 
+#featured-heading {
+   margin-top: 40px;
+   text-align: center;
+}
+
 h5.sub-heading {
     font-family: Montserrat, sans-serif;
     font-size: 23px;
