@@ -684,6 +684,7 @@ a .desktop-version-other-projects {
     opacity: .9;
 }
 
+/*
 a .container-image-project {
     width: 35%;
     text-align: left;
@@ -693,6 +694,8 @@ a .container-image-project {
     margin-bottom: 20px;
     opacity: .9;
 }
+
+*/
 
 a .container-image-project {
     width: 100%;
