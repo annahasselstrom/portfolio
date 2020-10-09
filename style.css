@@ -589,7 +589,7 @@ h5 {
     max-width: 100%;
     display: flex;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 10px;
     height: auto;
     width: 100%;
     overflow: hidden;
@@ -793,14 +793,16 @@ a .container-image-project {
     margin-top: 80px;
   }
 
+  /*
 .stackoverflow, .github, .linkedin {
     color: #FA382F;
     text-align: center;
 }
-
+*/
 .linkedin {
     margin-top: 30px;
 }
+
 
 .icon-bottom {
     width: 110px;
