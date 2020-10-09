@@ -185,7 +185,6 @@ h4.anthropologist {
     margin-top: 20px;
 }
 
-
 .container-other-projects {
     padding-bottom: 60px;
 }
@@ -204,14 +203,12 @@ h5.sub-heading {
     padding-top: 20px;
 }
 
-
 .container-image-project {
     display: flex;
     position: relative;
     text-align: center;
     color: black;
-    opacity: .8; 
-    
+    opacity: .8;    
 }
 
 .container-image-project img {
@@ -270,7 +267,6 @@ h5.sub-heading {
 .container-languages p:first-child {
     margin-left: 38px;
 }
-
 
 .tech img {
     width: 80%;
@@ -376,7 +372,6 @@ img.stackoverflow {
     margin-right: 40px;
     margin-top: 0px;
 }
-
 
 .icon-bottom {
     width: 70px;
@@ -575,8 +570,6 @@ h4.anthropologist {
     background-color: white;
 }
 
-
-
 h5 {
     display: block;
     font-family: Montserrat, sans-serif;
@@ -615,15 +608,6 @@ h5 {
     opacity: .8;
 }
 
-
-/*
-.new.desktop-version {
-    margin-top: 5px;
-    padding-top: 0px;
-}
-*/
-
-
 .container-image-project img {
     max-width: 100%;
     display: flex;
@@ -652,12 +636,6 @@ h5 {
     text-align: left;
 }
 
-/*
-.container-for-text {
-    display: inline-flex;
-    justify-content: space-evenly;
-}
-*/
 .container-languages {
     display: flex;
     text-align: left;
@@ -673,9 +651,11 @@ h5 {
     color: black;
     margin-right: 4px;
 }
+
 .mobile-version {
     display: none;
 }
+
 .new {
     width: 35%;
     text-align: left;
@@ -688,35 +668,7 @@ h5 {
 
 a {
     text-decoration: none;
-}/*
-a .container.other-projects {
-    display: flex;
-    justify-content: center;
 }
-*/
-
-
-
-/*
-.desktop-version-other-projects {
-    display: flex;
-    padding-bottom: 60px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center; 
-}
-*/
-
-/*
-a .desktop-version-other-projects {
-    width: 35%;
-    text-align: left;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 20px; 
-    margin-bottom: 20px;
-}
-*/
 
 .container-other-projects-projects {
     display: flex;
@@ -740,58 +692,6 @@ a .desktop-version-other-projects {
     flex-wrap: wrap;
     justify-content: center;  
 }
-
-/*
-.desktop-version  {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;  
-    margin-top: 40px;
-}
-*/
-
-
-
-
-/*
-a .container-image-project {
-    width: 35%;
-    text-align: left;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 20px; 
-    margin-bottom: 20px;
-    opacity: .9;
-}
-
-*/
-
-/*
-.container-image-project {
-    width: 100%;
-    display: block;
-    margin: auto;
-    height: auto;
-    width: 100%;
-    overflow: hidden;
-    filter: contrast(70%);
-    filter: sepia() saturate(4) hue-rotate(312deg) brightness(80%) opacity(5);
-    opacity: .8;
-}
-*/
-
-/*
-.container-image-project img {
-    display: block;
-    margin: auto;
-    height: auto;
-    width: 100%;
-    overflow: hidden;
-    filter: contrast(70%);
-    filter: sepia() saturate(4) hue-rotate(312deg) brightness(80%) opacity(5);
-    opacity: .8;
-}
-*/
 
 article {
     width: 35%;
@@ -864,16 +764,9 @@ article img {
     margin-top: 80px;
   }
 
-  /*
-.stackoverflow, .github, .linkedin {
-    color: #FA382F;
-    text-align: center;
-}
-*/
 .linkedin {
     margin-top: 30px;
 }
-
 
 .icon-bottom {
     width: 110px;
