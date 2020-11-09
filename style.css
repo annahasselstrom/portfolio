@@ -581,11 +581,6 @@ h5 {
     margin-bottom: 0px;
 }
 
-.heading-featured {
-    display: inline;
-    text-align: center;
-}
-
 .container-featured-projects {
     display: flex;
     flex-wrap: wrap;
@@ -767,6 +762,7 @@ article img {
 .linkedin {
     margin-top: 30px;
 }
+
 
 .icon-bottom {
     width: 110px;
