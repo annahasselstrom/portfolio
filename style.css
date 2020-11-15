@@ -212,8 +212,6 @@ h4.sub-heading {
    width: 80%;
    padding-top: 40px;
    margin: auto;  
-   filter: blur(2px);
-   filter: sepia() saturate(2) hue-rotate(880deg) brightness(70%) opacity(5);
 }
 
 .center {
@@ -363,10 +361,11 @@ article.date {
 }
 
 .linkedin {
-    margin-left: 8px;
+    margin-top: 30px;
 }
 
 .github {
+    margin-top: 30px;
     margin-left: 5px;
 }
 
@@ -391,6 +390,10 @@ img.stackoverflow {
     border-radius: 50%;
     margin-right: 10px;
     margin-left: 10px;
+}
+
+.logo-names {
+    padding: 20px;
 }
 
 footer {
@@ -535,10 +538,13 @@ h5 {
     margin-top: 10px;
     margin-bottom: 0px;
     padding-top: 1px;
-    height: auto;
     overflow: hidden;
-    filter: contrast(70%);
-    filter: sepia() saturate(2) hue-rotate(880deg) brightness(70%) opacity(5);
+    opacity: .5;
+}
+
+.container-image-project img:hover {
+    opacity: 1;
+    
 }
 
 .center {
