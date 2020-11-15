@@ -12,8 +12,3 @@ I have focused on reaching blue level requirements. The site is built using css 
 
 Biggest learning this week: test throughout the coding process and make sure you include the testing time in your planning. Another learning: decide what versions, browsers, screenreaders, devices you think/know your users mainly uses and prioritize these. There will never be a perfect fit for all possible hardware and software.
 
-Issues I want help with:
-1. Aligning the social media icons with their respective logo-names.
-2. Understanding one error I can't resole in Lighthouse referring to an a-tag.
-
-Thanks!
