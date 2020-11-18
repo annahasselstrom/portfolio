@@ -210,8 +210,10 @@ h4.sub-heading {
 
 .container-image-project img {
    width: 80%;
+   height: 300px;
    padding-top: 40px;
-   margin: auto;  
+   object-fit: cover;
+   margin: auto;
 }
 
 .center {
@@ -283,9 +285,11 @@ article.heading-my-thoughts {
 
 article img {
     width: 80%;
+    height: 300px;
     display: block;
     margin: auto;
     margin-top: 50px;
+    object-fit: cover;
 }
 
 article.date {
@@ -652,7 +656,6 @@ article {
 article img {
     width: 100%;
     display: flex;
-    height: auto;
     overflow: hidden;
 }
   
