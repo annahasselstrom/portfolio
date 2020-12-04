@@ -1,6 +1,7 @@
 
 # View it live:
-https://app.netlify.com/sites/annahasselstrom-portfolio
+
+https://annahasselstrom-portfolio.netlify.app/
 
 
 # Portfolio
