@@ -75,7 +75,7 @@ a {
     position: relative;
 }
 
-  img.profile-picture {
+img.profile-picture {
     border-radius: 50%;
     border: 3px solid white;
     width: 170px;
@@ -205,7 +205,6 @@ h4.sub-heading {
     position: relative;
     text-align: center;
     color: black;
-    opacity: .8;    
 }
 
 .container-image-project img {
@@ -543,11 +542,10 @@ h5 {
     margin-bottom: 0px;
     padding-top: 1px;
     overflow: hidden;
-    opacity: .5;
 }
 
 .container-image-project img:hover {
-    opacity: 1;
+    opacity: .8;
     
 }
 
