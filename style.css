@@ -731,7 +731,7 @@ p.contact-info:last-child {
 .hero-image {
     display: flex;
     flex-direction: column;
-    background-image: url("./assets/confettiblue.jpg");
+    background-image: url("./assets/blueConfetti.jpeg");
     height: 500px;
     background-position: center;
     background-repeat: no-repeat;
