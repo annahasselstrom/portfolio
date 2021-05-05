@@ -67,6 +67,7 @@ a {
 .hero-image {
     display: flex;
     flex-direction: column;
+    /*background-image: url("./assets/confettiblue.jpg");*/
     background-image: url("./assets/confettiblue.jpg");
     height: 540px;
     background-position: center;
